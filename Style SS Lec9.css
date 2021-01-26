@@ -1,0 +1,584 @@
+*{margin:0; padding:0;}
+a{text-decoration:none;}
+
+.container{
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*
+font-family: 'Poppins', sans-serif;
+*/
+
+h1,h2,h3,h4,h5,h6,p,a,input,span{
+	font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*******************************
+Header 
+********************************/
+header{
+	position: absolute;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+/***nav bar***/
+.nav-link{
+	font-size: 26px;
+	color: white !important;
+	margin: 0 32px;
+}
+.nav-link:hover{
+	transform: scale(1.15);
+	transition: all 0.25s ease-out;
+}
+
+/***search bar***/
+.form-control {
+    padding: .8rem .75rem !important;
+    color: white !important;
+    background-color: #fcc302 !important;
+    border: 1px solid #fcc302 !important;
+    border-radius: none; 
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.input-group{
+	box-shadow: 2px 2px 8px -3px #000 !important;
+}
+.input-group-text{
+	background-color: #00bec9 !important;
+	color: white !important;
+	padding: .375rem 1.25rem !important;
+	border: none !important;
+}
+.form-control::placeholder {
+	color: white;
+	font-size: 17px;
+}
+
+
+
+
+
+
+/*******************************
+Banner
+********************************/
+.banner{
+	width: 100%;
+	background-color: #fcc302; 
+	padding: 175px 0;
+	height: 90vh;
+}
+.banner h1{
+	margin-top: 64px;
+	font-size: 64px;
+	font-weight: 600;
+	color:white;
+
+}
+.banner p{
+	font-size: 30px;
+	font-weight: 400;
+	color:white;
+	margin: 40px 0;
+}
+.banner .btn-primary{
+    color: #fff;
+    background-color: #00bec9 !important;
+    border-color: #00bec9 !important;
+} 
+.banner-button button{
+
+}
+.banner-button button:hover{
+	background: #07787f !important;
+	border-color: #07787f !important;
+}
+
+
+
+
+
+
+/*******************************
+SERVICE 1
+********************************/
+.service1{
+	width: 100%;
+	background-color: #fff;
+	padding: 175px 0;
+}
+.service1 h1{
+	margin-top: 64px;
+	font-size: 64px;
+	font-weight: 600;
+	color: black;
+	text-align: left;
+
+}
+.service1 p{
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+	margin: 40px 0;
+	text-align: left;
+}
+.service1 .btn-danger{
+	background-color: #fcc302 !important;
+	border-color: #fcc302 !important;
+}
+
+/*service right*/
+.service-vdo{
+	position: relative;
+	z-index: 1;
+}
+.service-vdo:hover{
+	transform: scale(1.1);
+	transition: all 1s cubic-bezier(1, -1.4, 0, 2.2);
+}
+.shadow{
+	position: absolute;
+	background: rgba(252,195,2,0.6);
+	top: 0;
+	right: 20px;
+	left: 0;
+	bottom: 0;
+}
+.box{
+	width: 180px;
+	height: 150px;
+	background-color:#fcc302;
+	position: absolute; 
+	z-index: -1;
+	bottom: -25px;
+	left: -30px;
+}
+.btn-danger{
+	background-color:#fcc302 !important;
+	border: none !important;
+}
+.btn-danger:hover{
+    color: white;
+    background-color: #EDB011FF !important;
+    border-color: white !important;
+} 
+.video-icon i{
+	height: 70px;
+	width: 70px;
+	background: white;
+	position: absolute;
+	left: 42%;
+	top: 42%;
+	text-align: center;
+	line-height: 70px;
+	color: #fcc302;
+	border-radius: 100%;
+	font-size: 26px;
+}
+
+
+
+
+
+
+/*******************************
+TOPIC
+********************************/
+.topic{
+	width: 100%;
+	padding: 80px 0px;
+	background-color: #fcc302;
+	text-align: center;
+}
+.topic h1{
+	font-size: 75px;
+	font-weight: 700;
+	color: #fff;
+}
+.topic p{
+	font-size: 33px;
+	color: #fff;
+	margin-top: 20px;
+}
+.topic-2{
+	width: 100%;
+	margin-top: 70px;
+}
+.topic-2 h3{
+	color: #fff;
+	margin-top: 40px;
+	font-size: 32px;
+	font-weight: 600;
+}
+.topic-2 p{
+	color: #fff;
+	margin-top: 20px;
+	font-size: 22px;
+	padding: 0px 40px;
+}
+.topic-2 .col-md-4{
+	transition: all 0.25s ease-in;
+}
+.topic-2 .col-md-4:hover{
+	transform: translateY(20px); 
+	transition: all 0.1s ease-in-out;
+	box-shadow: 0px -1px 10px 2px #000;
+}
+
+
+
+
+
+/*******************************
+SERVICE 2
+********************************/
+.service2-text h1{
+	text-align: right !important;
+}
+.service2-text p{
+	text-align: right !important;	
+}
+
+
+
+
+
+/*******************************
+2nd TOPIC
+********************************/
+.topic2{
+	width: 100%;
+	padding: 100px 0px;
+	text-align: center;
+	background-color: #fff;
+}
+
+
+/*topic2 tpera*/
+.topic2 h1{
+	font-size: 75px;
+	font-weight: 700;
+	color: #000;
+}
+.topic2 p{
+	font-size: 34px;
+	color: #000;
+	margin-top: 20px;
+}
+
+.topic2 .col-md-12 p{
+	margin-bottom: 100px;
+}
+
+
+/*puppy's price*/
+.topic-3{
+	width: 100%;
+	margin-top: 70px;
+}
+.topic-3 span{
+	font-size: 42px;
+	font-weight: 600;
+	color: #fff !important;
+	margin-right: 30px;
+}
+.topic-3 p{
+	font-size: 42px;
+	font-weight: 600;
+	color: #fff !important;
+}
+
+.topic-3 button{
+	border-radius: 25px;
+	padding: 6px 30px;
+}
+.topic-3 button:hover{
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.btn-primary {
+    color: #fff !important;
+    background-color: #00bec9;
+    border-color: #00bec9;
+}
+.topic-3 img{
+	transition: all 0.25s ease-in;
+}
+.topic-3 img:hover{
+	transform: translate(20px); 
+	transition: all 0.1s ease-in-out;
+	box-shadow: 0px -1px 10px 2px #000;
+}
+
+
+
+
+
+/*******************************
+3 vets (topic2)
+********************************/
+.info h3{
+	margin-top: 30px;
+	font-weight: 600;
+
+}
+.info p{
+	font-size: 16px !important;
+	margin-top: -5px;
+}
+
+.icon ul li {
+	list-style: none;
+	display: inline-block;
+	font-size: 28px;
+	margin-left: 10px;
+
+}
+ol, ul {
+    padding-left:0 !important;
+}
+
+.icon ul li a i {
+	color: white;
+    background-color: #fcc302;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+
+}
+.icon ul li a i:hover{
+	border-radius: 20%;
+	transform: scale(1.2);
+	transition: all 0.25s linear;
+}
+.info img:hover{
+	transform: scale(0.90); 
+	transition: all 0.20s ease-in-out;
+	box-shadow: 0px -1px 10px 2px #000;
+}
+
+
+
+
+
+/*******************************
+HISTORY
+********************************/
+.history{
+	width: 100%;
+	background-image: url(Images/history.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	height: 60vh;
+}
+.overlay{
+	position: absolute;
+	background: rgba(252,195,2,0.8);
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+
+}
+.history .row{
+	padding: 160px 0px;
+	text-align: center;
+
+}
+.history .col-md-4 img{
+	margin-bottom: 50px;
+}
+
+.history .col-md-4 h2{
+	color: #fff;
+	font-size: 42;
+	font-weight: 500;
+}
+.history .col-md-4 h3{
+	color: #fff;
+	font-size: 38;
+	letter-spacing: 1px;
+	font-weight: 800;
+}
+
+
+
+
+
+
+/*******************************
+POST
+********************************/
+.post{
+	width: 100%;
+	padding: 80px 0px 150px 0px;
+	text-align: center;
+	background-color: white;
+}
+
+/*post-pera*/
+.post h1{
+	font-size: 75px;
+	font-weight: 700;
+	color: #313243;
+}
+.post p{
+	font-size: 33px;
+	color: #313243;
+	margin-top: 20px;
+}
+
+/*post-box*/
+.detail{
+	margin-top: 50px;
+}
+.detail .detail-1 {
+	padding: 30px 23px 0px 23px;
+}
+
+.detail .detail-1 h3{
+	font-size: 25px;
+	text-align: left;
+	font-weight: 600;
+	margin: 0 15px 20px 15px;
+
+}
+.detail .detail-1 h5{
+	font-size: 17px;
+	text-align: left;
+	color: #00bec9;
+	margin: 0 15px 30px 15px;
+}
+.detail .detail-1 p{
+	font-size: 17px;
+	text-align: left;
+	margin: 0 15px 30px 15px;
+
+}
+.detail .detail-1 a{
+	font-size: 21px;
+	text-align: left !important;
+	color: #00bec9;
+	display: flex;
+	margin-left: 15px;
+
+
+}
+.post img:hover{
+	transform: scale(1.05); 
+	transition: all 0.20s ease-in-out;
+	box-shadow: 0px -1px 10px 2px #000;
+}
+.detail .detail-1 a:hover{
+	color: orangered;
+
+}
+
+
+
+
+/*******************************
+FOOTER
+********************************/
+.end{
+	width: 100%;
+	background-color: #343434;
+	color: #fff;
+	padding: 140px 0px;
+}
+
+.end h2{
+	font-size: 38px;
+	font-weight: 600;
+	margin-bottom: 20px !important;
+}
+.end .col-md-3 p{
+	margin-bottom: 12px !important;
+	font-weight: 400;
+	font-size: 25px;
+}
+.end .col-md-3 ul li{
+	list-style: none;
+	font-size: 25px;
+}
+.end .col-md-6 p{
+	font-weight: 400;
+	font-size: 1.25rem !important;
+	margin-bottom: 30px;
+
+}
+.end .col-md-6{
+	text-align: right !important;
+}
+.end .form-control {
+    padding: 1.375rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff !important;
+    background-color: #fcc302 !important;
+    border: none !important;
+    border-radius: none;
+}
+.end .input-group{
+	width: 62%;
+	margin-left: 240px;
+	text-align: right !important;
+}
+.end .input-group-text {
+    padding: 1.5rem 2rem !important;
+    color: #fff !important;
+    background-color: #00bec9 !important;
+    border: none !important;
+    border-radius: none ;
+    cursor: pointer;
+}
+.end .input-group-text i{
+	font-size: 25px;
+}
+
+.icon2 ul li {
+	list-style: none;
+	display: inline-block;
+	font-size: 28px;
+	margin-left: 10px;
+	margin-top: 30px;
+
+}
+.icon2 ul li a i {
+	color: black !important;
+    background-color: #fff !important;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center !important;
+
+}
+.icon2 ul li a i:hover{
+	background-color: #fcc302 !important;
+	coloe: #343434;
+	transform: scale(1.2);
+	transition: all 0.2s linear;
+}
